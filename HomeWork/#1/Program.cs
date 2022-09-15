@@ -9,7 +9,7 @@
  
             bool ver1 = a > b;
  
-            if (ver1)
+            if (a > b)
             {
                 Console.WriteLine($"Число {a} больше чем {b}");
             }
