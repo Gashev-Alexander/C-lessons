@@ -1,20 +1,20 @@
-﻿
-        {
-            Console.WriteLine("Введи 2 числа и мы тебе скажем какое из них больше");
-            int a, b;
-            Console.WriteLine("Введи свое первое число - ");
-            a = Convert.ToInt32(Console.Read());
-            Console.WriteLine("Введи свое второе число - ");
-            b = Convert.ToInt32(Console.Read());
+﻿{
+            Console.WriteLine("Введите первое число: ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите второе число: ");
+            int b = Convert.ToInt32(Console.ReadLine());
  
-            bool ver1 = a > b;
- 
-            if (a > b)
+            if(a > b)
             {
-                Console.WriteLine($"Число {a} больше чем {b}");
+                Console.WriteLine($"Max = {a}");
             }
-                else
-                {
-                    Console.WriteLine($"Число {b} больше чем {a}");
-                }
-        }   
+            else if (a < b)
+            {
+                Console.WriteLine($"Max = {b}");
+            }
+            else
+            {
+                Console.WriteLine("Оба числа равны");
+            }
+            Console.ReadKey();
+        }

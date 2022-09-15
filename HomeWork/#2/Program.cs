@@ -1,17 +1,14 @@
-﻿{
-        Console.WriteLine("Введите два числа: ");
-        int a, b;
-        Console.WriteLine("Введите первое число: ");
-        int a = Convert.ToInt32(Console.Read());
-        Console.WriteLine("Введите второе число: ");
-        int b = Convert.ToInt32(Console.Read());
-
-        if (a > b)
-            {
-                Console.WriteLine($" {a} больше чем {b} ");
-            }
-        else if (b > a)
-            {
-                Console.WriteLine($" {b} больше чем {a} ");
-            }
-}
+﻿{   
+            Console.WriteLine("Введите первое число: ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите второе число: ");
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите третье число: ");
+            int c = Convert.ToInt32(Console.ReadLine());
+            int max = a; 
+            if (a > max ) max = a;
+            if (b > max ) max = b;
+            if (c > max ) max = c;
+            Console.Write("max = ");
+            Console.WriteLine(max);
+        }
