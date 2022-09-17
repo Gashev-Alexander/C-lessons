@@ -83,4 +83,4 @@ a = -9 b = -3 -> max = -3
 
 # ``Lesson 2``
 
-![Фунцкии в программировании](https://ibb.co/PCTFmXW)
+![Фунцкии в программировании](https://i.ibb.co/5cYGMpj/image.png)
