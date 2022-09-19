@@ -103,3 +103,7 @@ result result — то, что вернёт функция, чтобы в дал
 * lesson2.0 нахождение максимального числа
 * lesson2.1 нахождение максимального числа используя метод и функцию
 * lesson2.2 
+
+
+# HomeWork Seminar 2
+![Homework](https://i.ibb.co/Xsm48vd/homework.png)
