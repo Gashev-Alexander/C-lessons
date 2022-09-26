@@ -1,0 +1,15 @@
+C:\Users\Hp\Desktop\C#\Lesson-3\Method3.1\bin\Debug\net6.0\Method3.1.exe
+C:\Users\Hp\Desktop\C#\Lesson-3\Method3.1\bin\Debug\net6.0\Method3.1.deps.json
+C:\Users\Hp\Desktop\C#\Lesson-3\Method3.1\bin\Debug\net6.0\Method3.1.runtimeconfig.json
+C:\Users\Hp\Desktop\C#\Lesson-3\Method3.1\bin\Debug\net6.0\Method3.1.dll
+C:\Users\Hp\Desktop\C#\Lesson-3\Method3.1\bin\Debug\net6.0\Method3.1.pdb
+C:\Users\Hp\Desktop\C#\Lesson-3\Method3.1\obj\Debug\net6.0\Method3.1.csproj.AssemblyReference.cache
+C:\Users\Hp\Desktop\C#\Lesson-3\Method3.1\obj\Debug\net6.0\Method3.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Desktop\C#\Lesson-3\Method3.1\obj\Debug\net6.0\Method3.1.AssemblyInfoInputs.cache
+C:\Users\Hp\Desktop\C#\Lesson-3\Method3.1\obj\Debug\net6.0\Method3.1.AssemblyInfo.cs
+C:\Users\Hp\Desktop\C#\Lesson-3\Method3.1\obj\Debug\net6.0\Method3.1.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\C#\Lesson-3\Method3.1\obj\Debug\net6.0\Method3.1.dll
+C:\Users\Hp\Desktop\C#\Lesson-3\Method3.1\obj\Debug\net6.0\refint\Method3.1.dll
+C:\Users\Hp\Desktop\C#\Lesson-3\Method3.1\obj\Debug\net6.0\Method3.1.pdb
+C:\Users\Hp\Desktop\C#\Lesson-3\Method3.1\obj\Debug\net6.0\Method3.1.genruntimeconfig.cache
+C:\Users\Hp\Desktop\C#\Lesson-3\Method3.1\obj\Debug\net6.0\ref\Method3.1.dll
