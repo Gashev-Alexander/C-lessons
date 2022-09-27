@@ -1,0 +1,15 @@
+C:\Users\Hp\Desktop\C#\HomeWork\№4\33\bin\Debug\net6.0\33.exe
+C:\Users\Hp\Desktop\C#\HomeWork\№4\33\bin\Debug\net6.0\33.deps.json
+C:\Users\Hp\Desktop\C#\HomeWork\№4\33\bin\Debug\net6.0\33.runtimeconfig.json
+C:\Users\Hp\Desktop\C#\HomeWork\№4\33\bin\Debug\net6.0\33.dll
+C:\Users\Hp\Desktop\C#\HomeWork\№4\33\bin\Debug\net6.0\33.pdb
+C:\Users\Hp\Desktop\C#\HomeWork\№4\33\obj\Debug\net6.0\33.csproj.AssemblyReference.cache
+C:\Users\Hp\Desktop\C#\HomeWork\№4\33\obj\Debug\net6.0\33.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Desktop\C#\HomeWork\№4\33\obj\Debug\net6.0\33.AssemblyInfoInputs.cache
+C:\Users\Hp\Desktop\C#\HomeWork\№4\33\obj\Debug\net6.0\33.AssemblyInfo.cs
+C:\Users\Hp\Desktop\C#\HomeWork\№4\33\obj\Debug\net6.0\33.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\C#\HomeWork\№4\33\obj\Debug\net6.0\33.dll
+C:\Users\Hp\Desktop\C#\HomeWork\№4\33\obj\Debug\net6.0\refint\33.dll
+C:\Users\Hp\Desktop\C#\HomeWork\№4\33\obj\Debug\net6.0\33.pdb
+C:\Users\Hp\Desktop\C#\HomeWork\№4\33\obj\Debug\net6.0\33.genruntimeconfig.cache
+C:\Users\Hp\Desktop\C#\HomeWork\№4\33\obj\Debug\net6.0\ref\33.dll

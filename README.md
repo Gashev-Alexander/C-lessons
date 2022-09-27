@@ -123,3 +123,7 @@ result result — то, что вернёт функция, чтобы в дал
 
 # Итоги третьей лекции
 ![Итоги](https://i.ibb.co/yYqRZSC/image.png)
+
+# HomeWork Seminar4
+
+![Homework](https://i.ibb.co/jDJCPpH/image.png)
