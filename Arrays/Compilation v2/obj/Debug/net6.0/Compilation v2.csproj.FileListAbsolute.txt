@@ -1,0 +1,15 @@
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v2\obj\Debug\net6.0\Compilation v2.csproj.AssemblyReference.cache
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v2\obj\Debug\net6.0\Compilation v2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v2\obj\Debug\net6.0\Compilation v2.AssemblyInfoInputs.cache
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v2\obj\Debug\net6.0\Compilation v2.AssemblyInfo.cs
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v2\obj\Debug\net6.0\Compilation v2.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v2\bin\Debug\net6.0\Compilation v2.exe
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v2\bin\Debug\net6.0\Compilation v2.deps.json
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v2\bin\Debug\net6.0\Compilation v2.runtimeconfig.json
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v2\bin\Debug\net6.0\Compilation v2.dll
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v2\bin\Debug\net6.0\Compilation v2.pdb
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v2\obj\Debug\net6.0\Compilation v2.dll
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v2\obj\Debug\net6.0\refint\Compilation v2.dll
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v2\obj\Debug\net6.0\Compilation v2.pdb
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v2\obj\Debug\net6.0\Compilation v2.genruntimeconfig.cache
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v2\obj\Debug\net6.0\ref\Compilation v2.dll

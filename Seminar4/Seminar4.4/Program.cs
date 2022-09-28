@@ -1,5 +1,8 @@
-﻿int[] array = GetBinaryArray(8);
-Console.WriteLine($"[{String.Join(",", array)}]");
+﻿ Console.Clear();
+        Console.Write("Введите размер массива: ");
+        int SizeMas = int.Parse(Console.ReadLine());
+        int[] array = GetBinaryArray(SizeMas);
+        Console.WriteLine($"[{String.Join(",", array)}]");
 
 
 int[] GetBinaryArray(int size)

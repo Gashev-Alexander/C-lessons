@@ -1,0 +1,15 @@
+C:\Users\Hp\Desktop\C#\Arrays\черновик\obj\Debug\net6.0\черновик.csproj.AssemblyReference.cache
+C:\Users\Hp\Desktop\C#\Arrays\черновик\obj\Debug\net6.0\черновик.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Desktop\C#\Arrays\черновик\obj\Debug\net6.0\черновик.AssemblyInfoInputs.cache
+C:\Users\Hp\Desktop\C#\Arrays\черновик\obj\Debug\net6.0\черновик.AssemblyInfo.cs
+C:\Users\Hp\Desktop\C#\Arrays\черновик\obj\Debug\net6.0\черновик.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\C#\Arrays\черновик\bin\Debug\net6.0\черновик.exe
+C:\Users\Hp\Desktop\C#\Arrays\черновик\bin\Debug\net6.0\черновик.deps.json
+C:\Users\Hp\Desktop\C#\Arrays\черновик\bin\Debug\net6.0\черновик.runtimeconfig.json
+C:\Users\Hp\Desktop\C#\Arrays\черновик\bin\Debug\net6.0\черновик.dll
+C:\Users\Hp\Desktop\C#\Arrays\черновик\bin\Debug\net6.0\черновик.pdb
+C:\Users\Hp\Desktop\C#\Arrays\черновик\obj\Debug\net6.0\черновик.dll
+C:\Users\Hp\Desktop\C#\Arrays\черновик\obj\Debug\net6.0\refint\черновик.dll
+C:\Users\Hp\Desktop\C#\Arrays\черновик\obj\Debug\net6.0\черновик.pdb
+C:\Users\Hp\Desktop\C#\Arrays\черновик\obj\Debug\net6.0\черновик.genruntimeconfig.cache
+C:\Users\Hp\Desktop\C#\Arrays\черновик\obj\Debug\net6.0\ref\черновик.dll
