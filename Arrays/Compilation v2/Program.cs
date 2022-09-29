@@ -50,18 +50,17 @@ switch(Console.ReadLine())
     case "automatic":
     case "Automatic":
         Console.Clear();
-        Console.Write("Введите размер массива\nEnter the size of the array: ");
+        Console.Write("Введите размер массива\nEnter the size of the array: ");  
         int SizeMas1 = int.Parse(Console.ReadLine());
         int[] array1 = GetBinaryArray(SizeMas1);
         Console.WriteLine($"[{String.Join(",", array1)}]");
-        
         int[] GetBinaryArray(int size)
         {
-            int[] result = new int  [size];
+            Console.Write("Введите возможное максимальное значение элемента массива \n   Enter the possible maximum value of the array element: ");
+            int razmer = int.Parse(Console.ReadLine());
+            int[] result = new int [size];
             for (int i = 0; i < size; i++)
-            {
-                result[i] = new Random().Next(9999);
-            }
+            result[i] = new Random().Next(razmer);
         return result;
         }
     break;    
