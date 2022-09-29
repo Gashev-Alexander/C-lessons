@@ -1,0 +1,15 @@
+C:\Users\Hp\Desktop\C#\Seminar5\Seminar5.1\obj\Debug\net6.0\Seminar5.1.csproj.AssemblyReference.cache
+C:\Users\Hp\Desktop\C#\Seminar5\Seminar5.1\obj\Debug\net6.0\Seminar5.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Desktop\C#\Seminar5\Seminar5.1\obj\Debug\net6.0\Seminar5.1.AssemblyInfoInputs.cache
+C:\Users\Hp\Desktop\C#\Seminar5\Seminar5.1\obj\Debug\net6.0\Seminar5.1.AssemblyInfo.cs
+C:\Users\Hp\Desktop\C#\Seminar5\Seminar5.1\obj\Debug\net6.0\Seminar5.1.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\C#\Seminar5\Seminar5.1\bin\Debug\net6.0\Seminar5.1.exe
+C:\Users\Hp\Desktop\C#\Seminar5\Seminar5.1\bin\Debug\net6.0\Seminar5.1.deps.json
+C:\Users\Hp\Desktop\C#\Seminar5\Seminar5.1\bin\Debug\net6.0\Seminar5.1.runtimeconfig.json
+C:\Users\Hp\Desktop\C#\Seminar5\Seminar5.1\bin\Debug\net6.0\Seminar5.1.dll
+C:\Users\Hp\Desktop\C#\Seminar5\Seminar5.1\bin\Debug\net6.0\Seminar5.1.pdb
+C:\Users\Hp\Desktop\C#\Seminar5\Seminar5.1\obj\Debug\net6.0\Seminar5.1.dll
+C:\Users\Hp\Desktop\C#\Seminar5\Seminar5.1\obj\Debug\net6.0\refint\Seminar5.1.dll
+C:\Users\Hp\Desktop\C#\Seminar5\Seminar5.1\obj\Debug\net6.0\Seminar5.1.pdb
+C:\Users\Hp\Desktop\C#\Seminar5\Seminar5.1\obj\Debug\net6.0\Seminar5.1.genruntimeconfig.cache
+C:\Users\Hp\Desktop\C#\Seminar5\Seminar5.1\obj\Debug\net6.0\ref\Seminar5.1.dll
