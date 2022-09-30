@@ -30,11 +30,12 @@ Console.WriteLine(minus);
 
 
 // противоположность массива
-for (int i = array.Length - 1; i > array.Length * (-1); i--)
-            array[i] = -1*array[i];
-            
-        Console.Write("Изменённый массив: ");
-         for (int i = 0; i < array.Length; i++)
-            Console.Write((i != array.Length - 1) ? $"{array[i]}; " : $"{array[i]}\n");
-            
-        Console.ReadKey();
+Console.WriteLine(String.Join(" ", InversArray(array)));
+int[] InversArray(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        array[i] *= -1;
+    }
+    return array;
+}
