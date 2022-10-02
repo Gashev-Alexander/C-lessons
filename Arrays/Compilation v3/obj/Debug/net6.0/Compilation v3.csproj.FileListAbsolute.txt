@@ -1,0 +1,15 @@
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v3\bin\Debug\net6.0\Compilation v3.exe
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v3\bin\Debug\net6.0\Compilation v3.deps.json
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v3\bin\Debug\net6.0\Compilation v3.runtimeconfig.json
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v3\bin\Debug\net6.0\Compilation v3.dll
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v3\bin\Debug\net6.0\Compilation v3.pdb
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v3\obj\Debug\net6.0\Compilation v3.csproj.AssemblyReference.cache
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v3\obj\Debug\net6.0\Compilation v3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v3\obj\Debug\net6.0\Compilation v3.AssemblyInfoInputs.cache
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v3\obj\Debug\net6.0\Compilation v3.AssemblyInfo.cs
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v3\obj\Debug\net6.0\Compilation v3.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v3\obj\Debug\net6.0\Compilation v3.dll
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v3\obj\Debug\net6.0\refint\Compilation v3.dll
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v3\obj\Debug\net6.0\Compilation v3.pdb
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v3\obj\Debug\net6.0\Compilation v3.genruntimeconfig.cache
+C:\Users\Hp\Desktop\C#\Arrays\Compilation v3\obj\Debug\net6.0\ref\Compilation v3.dll
