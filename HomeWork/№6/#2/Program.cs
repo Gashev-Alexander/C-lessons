@@ -1,13 +1,14 @@
-﻿double[,] kof = new double[2, 2];
+﻿Console.Clear();
+double[,] kof = new double[2, 2];
 double[] crossPoint = new double[2];
 
 void InputKoff(){
   for (int i = 0; i < kof.GetLength(0); i++)
   {
-    Console.Write($"Введите коэффициенты {i+1}-го");
+    Console.Write($"\nВведите коэффициенты {i+1}-го уравнения");
     for (int j = 0; j < kof.GetLength(1); j++)
     {
-      if(j==0) Console.Write($"Введите коэффициент k: ");
+      if(j==0) Console.Write($"\nВведите коэффициент k: ");
       else Console.Write($"Введите коэффициент b: ");
       kof[i,j] = Convert.ToInt32(Console.ReadLine());
     }

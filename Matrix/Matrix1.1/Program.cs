@@ -1,45 +1,25 @@
-﻿using System.Text;
-/// <summary>
-/// Возвращает созданный пользователем массив.
-/// </summary>
-IReadOnlyCollection<int> InputIntArray(int M)
-{
-    Console.WriteLine($"Пожалуйста введите {M} чисел через Enter:");
-    var array = new List<int>();
+﻿// // Можно создать в памяти матрицу заданного размера, заполненной некоторыми начальными значениями.
+// int[,] array = new int[4, 2]; // 4 строки, 2 столбца
 
-    for (int i = 0; i < M; i++)
-    {
-        var itemNew = int.Parse(Console.ReadLine());
-        array.Add(itemNew);
-    }
+// // После создания матрицы можно заполнить ее произвольными значениями. Так как каждый элемент имеет два индекса, то необходимо использовать вложенные циклы
+// // for (int i=1; i <= 4; i++) 
+// // {       // N - число строк
+// //     for (int j=1; j <= 2; j++) 
+// //     {   // M - число столбцов
+// //         Console.Write(A[i, j] + " ");
+// //     }
+// //     Console.WriteLine();
+// // }
 
-    return array;
-}
 
-/// <summary>
-/// Возвразщает кол-во числе в массиве > 0.
-/// </summary>
-int CountPositiveNumbers(in IReadOnlyCollection<int> array)
-    => array.Where(item => item > 0)
-            .Count();
-
-/// <summary>
-/// Возвращает строку из элементов массива <paramref name="array"/>.
-/// </summary>
-string GetStringArray(in IReadOnlyCollection<int> array)
-{
-    var arrOutput = new StringBuilder();
-
-    foreach (var item in array)
-    {
-        arrOutput.Append(item)
-                 .Append(" ");
-    }
-
-    return string.Join(",", array);
-}
-
-Console.Write("Сколько чисел собираетесь вводить?: ");
-var M = int.Parse(Console.ReadLine());
-var array = InputIntArray(M);
-Console.WriteLine($"{GetStringArray(array)} -> {CountPositiveNumbers(array)}");
+// int[,] array = new int[n,m];                                  // создаем массив, который будем заполнять
+// for (int i = 0; i <  n; i++)
+// {
+//        string A = Console.ReadLine();                         // считываем строку 
+//        int[] curr = A.Split(' ').Select(int.Parse).ToArray(); // преобразуем эту строку в одномерный массив curr
+//        for (int j = 0; j < m; j++)
+//        {
+//            array[i, j] = curr[j];                             // заполняем строку нужного нам массива значениями из массива curr
+//        }
+// }
+ 

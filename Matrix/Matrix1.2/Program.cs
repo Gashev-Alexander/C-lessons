@@ -1,27 +1,34 @@
-﻿Console.Clear();
-Console.Write("Введите размер массива: ");
-int SizeM = int.Parse(Console.ReadLine());
-int[] array = GetBinaryArray(SizeM);
-Console.WriteLine($"[{String.Join(",", array)}]");
-        
-int[] GetBinaryArray(int size)
+﻿void PrintArray(int[,,] matr)
 {
-    int[] result = new int [size];
-    for (int i = 0; i < size; i++)
+for (int i = 0; i < matr.GetLength(0); i++)
+{
+    for (int j = 0; j < matr.GetLength(1); j++)
     {
-        result[i] = new Random().Next(-99,99);
+        for (int k = 0; k < matr.GetLength(2); k++)
+        {
+            Console.Write($"{matr[i, j, k]} ");
+        }
     }
-return result;
+    Console.WriteLine();
+}
 }
 
-int Comparison(int[] array)
+void FillArray(int[,,] matr)
 {
-  int count = 0;
-  for (int i = 0; i < array.Length; i++)
-  {
-    if(array[i] > 0 ) count += 1; 
-  }
-  return count;
+for (int i = 0; i < matr.GetLength(0); i++)
+{
+    for (int j = 0; j < matr.GetLength(1); j++)
+    {
+        for (int k = 0; k < matr.GetLength(2); k++)
+        {
+        matr[i, j, k] = new Random().Next(1,27);
+        }
+    }
+    Console.WriteLine();
+}
 }
 
-Console.WriteLine($"Чисел больше 0 => {Comparison(array)} ");
+int[,,] matrix = new int [3, 3, 3];
+PrintArray(matrix);
+FillArray(matrix);
+PrintArray(matrix);

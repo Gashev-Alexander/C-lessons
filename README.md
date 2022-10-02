@@ -127,3 +127,6 @@ result result — то, что вернёт функция, чтобы в дал
 # HomeWork Seminar4
 
 ![Homework](https://i.ibb.co/jDJCPpH/image.png)
+
+# Виды массивов
+![Виды массивов](https://i.ibb.co/MkKMYw9/array.png)
