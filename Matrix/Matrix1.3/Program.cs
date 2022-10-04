@@ -6,7 +6,7 @@ Console.Write("{0,3}", arr[i, j]);
 }
 static void Main(string[] args)
 {
-Console.Write("Введите размерность массива:\nn=");
+Console.Write("Введите размер массива:\nn=");
 int n = int.Parse(Console.ReadLine());
 Console.Write("m=");
 int m = int.Parse(Console.ReadLine());
@@ -23,7 +23,7 @@ int tmp;
 tmp = arr[arr.GetLength(0) - 1, 0];
 arr[arr.GetLength(0) - 1, 0] = arr[0, arr.GetLength(1) - 1];
 arr[0, arr.GetLength(1) - 1] = tmp;
-Console.WriteLine("Итоговый массив:");
+Console.WriteLine("Измененный массив:");
 Print(arr);
 Console.ReadKey();
 }
