@@ -15,21 +15,21 @@ void TopArray(int[] coll)
     int count = coll.Length;
     int i = 0;
     Console.Write("[");
-    while(i < count)
-{
+    while (i < count)
+    {
         Console.Write(coll[i]);
         i++;
         if (i < count)
-    {
-        Console.Write(", ");
+        {
+            Console.Write(", ");
+        }
     }
-}
-  Console.Write("]");
+    Console.Write("]");
 }
 TopArray(myArray);
 
 int[] nums = myArray;
- 
+
 int temp;
 for (int i = 0; i < nums.Length - 1; i++)
 {
@@ -52,32 +52,32 @@ Console.WriteLine("\n\nВывод отсортированного массив�
         int count = up.Length;
         int i = 0;
         Console.Write("[");
-        while(i < count)
-    {
-        Console.Write(up[i]);
-        i++;
-        if (i < count)
-    {
-        Console.Write(", ");
-    }
-    }
+        while (i < count)
+        {
+            Console.Write(up[i]);
+            i++;
+            if (i < count)
+            {
+                Console.Write(", ");
+            }
+        }
         Console.Write("]");
     }
-SortArray(myArray);
+    SortArray(myArray);
 }
 
 //Нажодение максимального элемента массива
 {
-int [] ar = myArray;
-int maxValue = ar.OrderByDescending(x => x).First();
-Console.WriteLine("\n\nМаксимальный элемент массива:");
-Console.WriteLine($"[{maxValue}]");
+    int[] ar = myArray;
+    int maxValue = ar.OrderByDescending(x => x).First();
+    Console.WriteLine("\n\nМаксимальный элемент массива:");
+    Console.WriteLine($"[{maxValue}]");
 }
 
 //Сумма всех элементов массива
 {
-int[] mas = myArray;
+    int[] mas = myArray;
     int rez = mas.Sum();
-Console.WriteLine("\nСумма всех элементов массива:");
-Console.WriteLine($"[{rez}]");
+    Console.WriteLine("\nСумма всех элементов массива:");
+    Console.WriteLine($"[{rez}]");
 }
