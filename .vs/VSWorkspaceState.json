@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Matrix",
-    "\\Matrix\\Matrix1.1",
-    "\\Matrix\\Matrix1.2"
+    "\\TestVS"
   ],
-  "SelectedNode": "\\Matrix\\Matrix1.2\\Program.cs",
+  "SelectedNode": "\\TestVS\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
