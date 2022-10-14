@@ -7,9 +7,9 @@ Console.Write("{0,3}", arr[i, j]);
 static void Main(string[] args)
 {
 Console.Write("Введите размер массива:\nn=");
-int n = int.Parse(Console.ReadLine());
+int n = Convert.ToInt32(Console.ReadLine());
 Console.Write("m=");
-int m = int.Parse(Console.ReadLine());
+int m = Convert.ToInt32(Console.ReadLine());
 int[,] arr = new int[n, m];
 Random rnd = new Random();
 for (int i = 0; i < arr.GetLength(0); i++)

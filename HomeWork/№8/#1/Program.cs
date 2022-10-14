@@ -1,62 +1,70 @@
-﻿Console.Clear();
-Console.WriteLine($"\nВведите размер массива m x n и диапазон случайных значений:");
-int m = InputNumbers("Введите m: ");
-int n = InputNumbers("Введите n: ");
-int range = InputNumbers("Введите диапазон: от 1 до ");
+﻿using System;
+using static System.Console;
+using static System.Convert;
+Clear();
+ForegroundColor = ConsoleColor.Red;
+WriteLine("СОРТИРОВКА ДВУМЕРНОГО МАССИВА");
+ResetColor();
 
-int[,] array = new int[m, n];
-CreateArray(array);
-WriteArray(array);
+Write("Введите количество строк: ");
+int x = ToInt32(ReadLine());
+Write("Введите количество столбцов: ");
+int y = ToInt32(ReadLine());
 
-Console.WriteLine($"\nОтсортированный массив: ");
-OrderArrayLines(array);
-WriteArray(array);
+Clear();
+WriteLine("\nОсновной массив:");
 
-void OrderArrayLines(int[,] array)
+int[,] DuoMas = new int[x, y];
+Random DouMas = new Random();
+for (int i = 0; i < DuoMas.GetLength(0); i++)
 {
-  for (int i = 0; i < array.GetLength(0); i++)
-  {
-    for (int j = 0; j < array.GetLength(1); j++)
+    for (int j = 0; j < DuoMas.GetLength(1); j++)
     {
-      for (int k = 0; k < array.GetLength(1) - 1; k++)
-      {
-        if (array[i, k] < array[i, k + 1])
+        DuoMas[i, j] = DouMas.Next(10);
+    }
+}
+WriteLine();
+for (int i = 0; i < x; i++)
+{
+    for (int j = 0; j < y; j++)
+    {
+        Write(DuoMas[i, j] + " ");
+    }
+    WriteLine();
+}
+
+
+WriteLine($"\nОтсортированный массив: ");
+OrderArrayLines(DuoMas);
+WriteArray(DuoMas);
+
+void OrderArrayLines(int[,] DouMas)
+{
+    for (int i = 0; i < DouMas.GetLength(0); i++)
+    {
+        for (int j = 0; j < DouMas.GetLength(1); j++)
         {
-          int temp = array[i, k + 1];
-          array[i, k + 1] = array[i, k];
-          array[i, k] = temp;
+            for (int k = 0; k < DouMas.GetLength(1) - 1; k++)
+            {
+                if (DouMas[i, k] < DouMas[i, k + 1])
+                {
+                    int temp = DouMas[i, k + 1];
+                    DouMas[i, k + 1] = DouMas[i, k];
+                    DouMas[i, k] = temp;
+                }
+            }
         }
-      }
     }
-  }
 }
-
-int InputNumbers(string input)
+void WriteArray(int[,] DouMas)
 {
-  Console.Write(input);
-  int output = Convert.ToInt32(Console.ReadLine());
-  return output;
-}
-
-void CreateArray(int[,] array)
-{
-  for (int i = 0; i < array.GetLength(0); i++)
-  {
-    for (int j = 0; j < array.GetLength(1); j++)
+    for (int i = 0; i < x; i++)
     {
-      array[i, j] = new Random().Next(range);
+        for (int j = 0; j < y; j++)
+        {
+            Write(DouMas[i, j] + " ");
+        }
+        WriteLine();
     }
-  }
 }
-
-void WriteArray(int[,] array)
-{
-  for (int i = 0; i < array.GetLength(0); i++)
-  {
-    for (int j = 0; j < array.GetLength(1); j++)
-    {
-      Console.Write(array[i, j] + " ");
-    }
-    Console.WriteLine();
-  }
-}
+WriteLine();
